@@ -13,11 +13,21 @@ body{
     height: 100vh;
     overflow: hidden;
     margin: 0;
-}
+    }
 
-.bg{
-    background: url(no-repeat center center/cover);
+.bg {
+    background: url('https://pixabay.com/illustrations/ai-generated-mountain-clouds-night-8662021/') 
+    no-repeat center center/cover;
     position: absolute ;
-    top: 0 ;
-    left: 0 ;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(30px);
+    }
+
+.loading-text {
+    font-size: 50px;
+    background-color: #fff;
 }
